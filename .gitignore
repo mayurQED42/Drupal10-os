@@ -24,3 +24,6 @@ vendor/.git
 
 #Ignore ddev
 .ddev
+
+#Ignore config sync in web directiry
+web/sites/default/files/sync
