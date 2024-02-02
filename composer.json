@@ -20,7 +20,8 @@
         "drupal/core-composer-scaffold": "^10.2",
         "drupal/core-project-message": "^10.2",
         "drupal/core-recommended": "^10.2",
-        "drush/drush": "^12.4"
+        "drush/drush": "^12.4",
+        "lcatlett/blt-ddev": "1.x-dev"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -34,7 +35,8 @@
             "drupal/core-project-message": true,
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "acquia/blt": true
         },
         "sort-packages": true
     },

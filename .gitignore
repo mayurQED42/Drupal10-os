@@ -27,3 +27,9 @@ vendor/.git
 
 #Ignore config sync in web directiry
 web/sites/default/files/sync
+local.drush.yml
+local.site.yml
+deployment_identifier
+/travis_wait*
+/files-private
+.phpcs-cache
