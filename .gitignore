@@ -5,13 +5,13 @@ local.services.yml
 local.blt.yml
 
 # Ignore drupal core.
-web/core
+docroot/core
 
 # Ignore contrib modules. These should be created during build process.
-web/modules/contrib
-web/themes/contrib
-web/profiles/contrib
-web/libraries
+docroot/modules/contrib
+docroot/themes/contrib
+docroot/profiles/contrib
+docroot/libraries
 
 # OS X
 .DS_Store
@@ -26,7 +26,7 @@ vendor/.git
 .ddev
 
 #Ignore config sync in web directiry
-web/sites/default/files/sync
+docroot/sites/default/files/
 local.drush.yml
 local.site.yml
 deployment_identifier

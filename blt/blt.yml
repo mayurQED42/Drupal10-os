@@ -1,0 +1,6 @@
+project:
+  machine_name: html
+git:
+  default_branch: main
+  remotes:
+    cloud: 'https://github.com/mayurQED42/Drupal10-os.git'
