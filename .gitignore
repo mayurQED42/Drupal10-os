@@ -1,0 +1,26 @@
+# Ignore configuration files that may contain sensitive information.
+local.settings.php
+local.services.yml
+*.local
+local.blt.yml
+
+# Ignore drupal core.
+web/core
+
+# Ignore contrib modules. These should be created during build process.
+web/modules/contrib
+web/themes/contrib
+web/profiles/contrib
+web/libraries
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+#Composer vendor
+vendor/
+vendor/.git
+
+#Ignore ddev
+.ddev
